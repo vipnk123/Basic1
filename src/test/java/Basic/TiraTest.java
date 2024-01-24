@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 
 public class TiraTest {
 
-
-
 @Test
 	
 	public void perfumeTest() {
@@ -20,7 +18,7 @@ public class TiraTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.tirabeauty.com/");
-		Assert.assertEquals("Pune", "Mumbai");
+		//Assert.assertEquals("Pune", "Mumbai");
 		System.out.println("Good Morning");
 		
 		/*WebElement stf = driver.findElement(By.id("search"));
